@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture of Iran | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+    <a href="index.html" class="brand">Culture of Iran</a>
+
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="information.html">Information</a>
+        <a href="geography.html">Geography</a>
+        <a href="photography.html">Photography</a>
+    </nav>
+
+    <div class="search-area">
+        <button id="search-button" aria-label="Open search">⌕</button>
+        <div id="search-panel">
+            <form id="search-form">
+                <input id="search-input" type="search"
+                       placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+            <div id="search-results"></div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="home-hero">
+        <div class="hero-copy">
+            <p class="eyebrow">Welcome To Persia</p>
+            <h1>Discover <span>Iran</span></h1>
+            <div class="gold-line"></div>
+            <p>A land of ancient history, beautiful cities and timeless culture.</p>
+            <a href="photography.html" class="primary-button">
+                Explore Iran
+            </a>
+        </div>
+
+        <a href="photography.html#places">
+            <img class="hero-image"
+                 src="images/home-persepolis.jpg"
+                 alt="Ancient ruins of Persepolis">
+        </a>
+    </section>
+
+    <section class="home-cities">
+        <a href="photography.html#places" class="city-card">
+            <img src="images/home-tehran.jpg" alt="Azadi Tower in Tehran">
+            <span>Tehran</span>
+        </a>
+
+        <a href="photography.html#places" class="city-card">
+            <img src="images/home-isfahan.jpg" alt="Historic mosque in Isfahan">
+            <span>Esfahan</span>
+        </a>
+
+        <a href="photography.html#places" class="city-card">
+            <img src="images/home-shiraz.jpg" alt="Colourful architecture in Shiraz">
+            <span>Shiraz</span>
+        </a>
+    </section>
+</main>
+
+<footer>
+    <p>Culture of Iran</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

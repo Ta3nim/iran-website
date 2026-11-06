@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture of Iran | Photography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="photography">
+
+<header class="site-header">
+    <a href="index.html" class="brand"> Culture of Iran</a>
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="information.html">Information</a>
+        <a href="geography.html">Geography</a>
+        <a href="photography.html">Photography</a>
+    </nav>
+    <div class="search-area">
+        <button id="search-button" aria-label="Open search">⌕</button>
+        <div id="search-panel">
+            <form id="search-form">
+                <input id="search-input" type="search" placeholder="Search Iran...">
+                <button type="submit">Search</button>
+            </form>
+            <div id="search-results"></div>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="page-heading">
+        <p class="eyebrow">A Visual Journey</p>
+        <h1>Photography of Iran</h1>
+        <div class="gold-line"></div>
+    </section>
+
+    <section class="gallery-section" id="food">
+        <h2>Iranian Food</h2>
+        <div class="gallery" id="food-gallery"></div>
+    </section>
+
+    <section class="gallery-section" id="places">
+        <h2>Places in Iran</h2>
+
+        <div class="gallery-filters">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="cities">Cities</button>
+            <button class="filter-button" data-filter="architecture">Architecture</button>
+            <button class="filter-button" data-filter="nature">Nature</button>
+            <button class="filter-button" data-filter="history">History</button>
+        </div>
+
+        <div class="gallery" id="places-gallery"></div>
+    </section>
+</main>
+
+<footer>
+    <p>Culture of Iran | Discover the beauty and heritage of Iran.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
